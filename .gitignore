@@ -1,0 +1,31 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# VM images and snapshots
+*.vmdk
+*.vdi
+*.vhd*
+*.ova
+*.ovf
+*.vmem
+*.vmsn
+*.vmss
+*.nvram
+
+# Captures and generated output
+*.pcap
+*.pcapng
+*.log
+
+# Local files
+.DS_Store
+__pycache__/
+*.pyc
